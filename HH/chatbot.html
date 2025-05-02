@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hope Haven Chatbot</title>
+  <link rel="icon" href="title icon.jpg">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-color: #2d7a35;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: calc(100vh - 100px); /* full height minus header */
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Hope Haven Chatbot</h1>
+    <p>Helping donors connect with nearby orphanages</p>
+  </div>
+
+  <!-- Embed the Streamlit chatbot as part of the page -->
+  <iframe src="http://localhost:8501"></iframe>
+
+</body>
+</html>
+
